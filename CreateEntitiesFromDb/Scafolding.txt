@@ -1,0 +1,3 @@
+﻿run the below in terminal:
+
+dotnet ef dbcontext scaffold "Server=.;Database=mvb;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -o Entities  -t "Location" -t "LocationType" -t "Geography" -t "Route"
